@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   # Version
-  s.version       = "1.2"
+  s.version       = "1.2.1"
   s.swift_version = '5'
 
   # Meta
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   # Compatibility & Sources
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/appssemble/VideoCache", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/appssemble/VideoCache.git", :tag => s.version.to_s }
   s.source_files = 'Sources/**/*.swift'
   s.requires_arc = true
 
